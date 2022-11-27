@@ -11,4 +11,4 @@ Testando se instalação deu certo
 - No prompt de comando digitar "php -v", com isso deve ser possível ver a versão instalada;
 
 Rodando os programas
-- No prompt de comando digitar "php <caminho do arquivo>/<nome do arquivo>"
+- No prompt de comando digitar "php 'caminho do arquivo'/'nome do arquivo'"
