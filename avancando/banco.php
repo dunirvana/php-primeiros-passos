@@ -25,6 +25,13 @@ $contasCorrentes[33290080045] = [
 $contasCorrentes[33290080045] = sacar($contasCorrentes[33290080045], 1000);
 $contasCorrentes[30090080066] = depositar($contasCorrentes[30090080066], 1000);
 
+titularComLetrasMaiusculas($contasCorrentes['30090080088']);
+
+// remover da coleção
+unset($contasCorrentes['30090080077']);
+
 foreach ($contasCorrentes as $cpf => $conta) {
-  exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+  //exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+  list('titular' => $titular, 'saldo' => $saldo) = $conta;
+  exibeMensagem("$cpf $titular $saldo");
 }
