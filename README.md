@@ -12,3 +12,6 @@ Testando se instalação deu certo
 
 Rodando os programas
 - No prompt de comando digitar "php 'caminho do arquivo'/'nome do arquivo'"
+
+Subindo um servidor web para desenvolvimento
+- No prompt, entrar na pasta de interesse (onde estão os arquivos) e digitar "php -S localhost:8001"
