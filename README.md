@@ -15,3 +15,6 @@ Rodando os programas
 
 Subindo um servidor web para desenvolvimento
 - No prompt, entrar na pasta de interesse (onde estão os arquivos) e digitar "php -S localhost:8001"
+
+Mais sobre arrays
+- [Link](https://www.alura.com.br/artigos/trabalhando-com-arrays-em-php)
